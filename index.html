@@ -2,20 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Student Life Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohith Chukkala | AI &amp; Data Science Portfolio</title>
+    <meta name="description" content="Portfolio of Mohith Chukkala — AI &amp; Data Science student and aspiring software engineer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
-    <h2>StudentApp</h2>
+    <div class="brand">
+        <h2>Mohith Chukkala</h2>
+        <span class="brand-tag">AI &amp; Data Science | Aspiring Software Engineer</span>
+    </div>
     <div class="nav-links">
-        <span>Dashboard</span>
-        <span>Skills</span>
-        <span>Projects</span>
-        <span>Goals</span>
-        <span>Contact</span>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
     </div>
 </nav>
+
+<header class="hero" id="home">
+    <div class="hero-content">
+        <p class="hero-greeting">👋 Hi, I'm</p>
+        <h1>Mohith Chukkala</h1>
+        <p class="hero-tagline">AI &amp; Data Science Student | Aspiring Software Engineer</p>
+        <p class="hero-blurb">I build clean, responsive web applications and love turning ideas into real, working products with intuitive and interactive user experiences.</p>
+        <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="https://1drv.ms/b/c/0c068e516587c477/IQA2XSQP4B8WQaB-T6b9Bz7jAY4aW6N58JPH0kZSX0CZv70?e=CENOzV" class="btn btn-primary" target="_blank" rel="noopener">📄 View Resume</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+    </div>
+</header>
 
 <div class="container">
     <aside class="sidebar">
@@ -27,31 +52,42 @@
 
         <hr>
 
-        <ul class="menu section-box">
-            <li>🏠 Dashboard</li>
-            <li>📚Education</li>
-            <li>📊 Projects</li>
-            <li>🎯 Goals</li>
-        </ul>
+        <div class="connect section-box">
+            <h4>🔗 Connect</h4>
+            <ul>
+                <li><a href="https://github.com/mohithchukkala" target="_blank" rel="noopener">💻 GitHub</a></li>
+                <li><a href="https://linkedin.com/in/chukkala-mohith" target="_blank" rel="noopener">🔗 LinkedIn</a></li>
+                <li><a href="https://leetcode.com/u/mohith_chukkala/" target="_blank" rel="noopener">🧩 LeetCode</a></li>
+                <li><a href="mailto:mohith2007.chukkala@gmail.com">✉️ Email</a></li>
+            </ul>
+        </div>
 
         <div class="skills section-box">
             <h4> Soft Skills</h4>
             <ul>
-                <li>Problem Solving</li>
-                <li>Critical Thinking</li>
-                <li>Team Collaboration</li>
-                <li>Communication</li>
-                <li>Time Management</li>
+                <li>Analytical Problem Solving</li>
+                <li>Adaptability & Quick Learning</li>
+                <li>Team Leadership & Collaboration</li>
+                <li>Clear Communication</li>
+                <li>Ownership & Accountability</li>
             </ul>
         </div>
 
         <div class="sidebar-footer">
-            <p>© 2026 Mohith</p>
+            <p>© 2028 Mohith</p>
         </div>
     </aside>
     <main class="main-content">
 
-        <section class="card">
+        <section class="card" id="about">
+            <h2>About Me</h2>
+            <div class="about-box">
+                <p>I'm a B.Tech student specializing in <strong>Artificial Intelligence &amp; Data Science</strong> at IIITDM Kurnool, currently in my 4th semester. I love building clean, responsive web applications and turning ideas into real, interactive products.</p>
+                <p>I'm passionate about <strong>problem solving</strong> (150+ DSA problems solved), crafting intuitive user interfaces, and continuously learning new tools and technologies as I grow toward a career in software engineering.</p>
+            </div>
+        </section>
+
+        <section class="card" id="education">
             <h2>Education</h2>
 
             <div class="education-item">
@@ -69,46 +105,58 @@
             </div>
 
         </section>
-        <section class="card">
+        <section class="card" id="skills">
         <h2>Skills</h2>
 
         <div class="skill-box">
-            <p><strong>Programming:</strong> C, C++, Python, JavaScript</p>
-            <p><strong>Machine Learning:</strong> Scikit-learn, Machine Learning Algorithms</p>
-            <p><strong>Data Analysis:</strong> Pandas, NumPy</p>
-            <p><strong>Data Collection:</strong>Web Scraping (BeautifulSoup, Requests)</p>
-            <p><strong>Data Visualization:</strong> Matplotlib, Seaborn</p>
-            <p><strong>Web Development:</strong> HTML, CSS</p>
+            <p><strong>Frameworks &amp; Libraries:</strong> FastAPI, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Web Scraping</p>
+            <p><strong>Languages:</strong> C, Python, C++, HTML, CSS, JS, MySQL</p>
+            <p><strong>Tools:</strong> GitHub, Linux, Jupyter Notebook, VS Code, GitHub Copilot, LaTeX, Cursor, Claude</p>
+            <p><strong>Core Concepts:</strong> Data Structures &amp; Algorithms, OOPS</p>
         </div>
         </section>
-        <section class="card">
+        <section class="card" id="projects">
             <h2>Projects</h2>
 
             <div class="project-item">
-                <h3>Student Dashboard App</h3>
-                <p>Built using HTML & CSS with responsive layout and animations.</p>
+                <div class="project-header">
+                    <h3>Personal Portfolio Website</h3>
+                    <a href="https://github.com/mohithchukkala/portfolio" target="_blank" class="project-link">View Project</a>
+                </div>
+                <ul>
+                    <li>Responsive single-page portfolio built with semantic HTML5 and CSS3.</li>
+                    <li>Sticky top navigation bar with smooth-scroll anchor navigation to each section.</li>
+                    <li>CSS Grid layout with a fixed sidebar and fluid main content area.</li>
+                    <li>Reusable card components with fade-in and hover-lift animations.</li>
+                    <li>Showcases education, skills, goals, achievements, and contact details.</li>
+                </ul>
             </div>
 
             <div class="project-item">
-                <h3>Spam Detection Model</h3>
-                <p>Machine learning model using Python for SMS classification.</p>
-            </div>
-
-            <div class="project-item">
-                <h3>Mask Detection System</h3>
-                <p>Deep learning project using TensorFlow.</p>
+                <div class="project-header">
+                    <h3>Mars One</h3>
+                    <div class="project-links">
+                        <a href="https://github.com/mohithchukkala/mars-one-project" target="_blank" class="project-link">View Project</a>
+                        <a href="https://mars-one-project.vercel.app" target="_blank" class="project-link">Live Demo</a>
+                    </div>
+                </div>
+                <ul>
+                    <li>Interactive, scroll-driven web experience narrating a cinematic journey from Earth to Mars.</li>
+                    <li>Smooth scroll-based storytelling with parallax effects and a minimalist black-and-white aesthetic.</li>
+                    <li>Built with React.js, Framer Motion for animations, Tailwind CSS, and Vite.</li>
+                    <li>Fully responsive across devices with performance-optimized animations.</li>
+                    <li>Created for a frontend design competition; deployed live on Vercel.</li>
+                </ul>
             </div>
         </section>
 
-        <section class="card">
+        <section class="card" id="goals">
             <h2>Goals & Achievements</h2>
             <div class="ga-container">
                 <div class="goal-achievement">
                     <h3>🎯 Current Goals</h3>
                     <ul>
                         <li>Reach 500+ problems solved on LeetCode</li>
-                        <li>Participate in 5 national-level hackathons</li>
-                        <li>Build 10 real-world portfolio projects</li>
                         <li>Get internship in a product-based company</li>
                         <li>Master Data Structures & System Design</li>
                     </ul>
@@ -118,23 +166,47 @@
                     <h3>🏆 Achievements</h3>
                     <ul>
                        <li>Solved 150+ coding problems across platforms</li>
-                       <li>Leetcode Profile:<a href="https://leetcode.com/u/mohith_chukkala/" target="_blank" style="text-decoration: none;"> view profile</a></li>
-                        <li>Built Machine Learning mini-projects using Python</li>
                         <li>Developed responsive portfolio dashboard</li>
-                        <li>Participated in college-level coding contests</li> 
+                        <li>Participated in college-level coding contests</li>
+                        <li>Participated in a frontend development competition conducted by IIT Patna <a href="https://1drv.ms/b/c/0c068e516587c477/IQD_HgR4Wrx3SJVbspgD4XGdAb9VlF6sM5D7iR1zV0VVXFg?e=Z473fY" target="_blank" rel="noopener" class="cert-link">View Certificate</a></li>
                     </ul>
                 </div>
             </div>
         </section>
-        <section class="card contact-section">
+        <section class="card contact-section" id="contact">
             <h2>Contact</h2>
 
-            <p><strong>Email:</strong> mohith2007.chukkala@gmail.com</p>
-            <p><strong>Phone:</strong> +91 7989267189</p>
+            <p><strong>Email:</strong> <a href="mailto:mohith2007.chukkala@gmail.com">mohith2007.chukkala@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+917989267189">+91 7989267189</a></p>
             <p><strong>LinkedIn:</strong><a href="https://linkedin.com/in/chukkala-mohith" target="_blank">view profile</a></p>
+            <a href="https://1drv.ms/b/c/0c068e516587c477/IQA2XSQP4B8WQaB-T6b9Bz7jAY4aW6N58JPH0kZSX0CZv70?e=CENOzV" class="resume-btn" target="_blank" rel="noopener">📄 View Resume</a>
         </section>
     </main>
 </div>
+
+<script>
+    (function () {
+        const root = document.documentElement;
+        const toggle = document.getElementById('theme-toggle');
+        const saved = localStorage.getItem('theme');
+        if (saved === 'dark') {
+            root.setAttribute('data-theme', 'dark');
+            toggle.textContent = '☀️';
+        }
+        toggle.addEventListener('click', function () {
+            const isDark = root.getAttribute('data-theme') === 'dark';
+            if (isDark) {
+                root.removeAttribute('data-theme');
+                toggle.textContent = '🌙';
+                localStorage.setItem('theme', 'light');
+            } else {
+                root.setAttribute('data-theme', 'dark');
+                toggle.textContent = '☀️';
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+    })();
+</script>
 
 </body>
 
